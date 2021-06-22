@@ -1,6 +1,6 @@
 # Autumatic Floor Planner
 
-This is a brief explaination of  a  prototype that revisis  Autumatic Floor Planner problem.
+This is a brief explaination of  a  prototype that revisits  Autumatic Floor Planner problem.
 
 The main motivation is to generate training data for related machine learning problems. The goal of this prototype is to have an example in
 hand to discuss, determine and understand the main goal more precisely. Let us start with how the implementation works:
