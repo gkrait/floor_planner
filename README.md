@@ -37,10 +37,25 @@ The shape of the exterior polygon is almost a rectangular except additional smal
 ### Example
 
 
-***
+```Python
 #Computing the Walls 
 import floor_planner as fp 
 from pprint import pprint
 All_Walls=fp.planner(0,0,15,10,7,3, 4)
 pprint(All_Walls[:3]) # The first 3 elements of All_Walls
-***
+```
+### The results
+```
+[Plaster: [(0.0,4.806029753560055),(0.0,10.0)],
+ Plaster: [(0.0,10.0),(6.535776882798447,10.0)],
+ Plaster: [(6.535776882798447,10.0),(6.535776882798447,4.806029753560055)]]
+```
+## Ploting the Walls
+```Python
+fp.Plot_Floor(All_Walls,x_min=-4, x_max=25)
+```
+
+```
+[<img src="https://colab.research.google.com/drive/17xVpGMrv9zDc2BO_s9ojL2nwcD3EpJb6#scrollTo=h4Mv8AZeBOHT&line=1&uniqifier=1">](https://colab.research.google.com/drive/17xVpGMrv9zDc2BO_s9ojL2nwcD3EpJb6#scrollTo=h4Mv8AZeBOHT&line=1&uniqifier=1)
+
+```
