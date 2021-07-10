@@ -22,7 +22,7 @@ The module *floor_planner* consists of 3 main functions: *planner, Plot_Floor* a
 ##*planner(x_min, y_min,x_max,y_max,N_rooms,d=0.5, min_len=1)*  Function
 
 I am aware that the expected entries are  max-min areas & max-min number of rooms. However, for practical reasons, I chose to slightly change the input type to avoid technical bugs.  
-The input of the this function are  *x_min, y_min,x_max,y_max* that represent the boundaries of appartment. the variable *d*  represents the error allowed, that is, the width of the floor is between \\
+The input of the this function are  *x_min, y_min,x_max,y_max* that represent the boundaries of appartment. the variable *d*  represents the error allowed, that is, the width of the floor is between 
 [x_min-d,x_max+d] and so  is the length [y_min-d,y_max+d].
 Simply, the variable *N_rooms* represents the number of rooms. 
 
@@ -63,3 +63,5 @@ fp.Plot_Floor(All_Walls,x_min=-4, x_max=25)
 ```Python
 fp.Mack_csv(All_Walls,fname="Floor") #fmane is optional for the name of the file
 ```
+
+
